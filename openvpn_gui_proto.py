@@ -6,7 +6,7 @@ from gi.repository import Gtk, Gio
 
 class OpenVPNWindow(Gtk.ApplicationWindow):
     def __init__(self, app):
-        super().__init__(application=app, title="OpenVPN Client Prototype")
+        super().__init__(application=app, title="OpenVPN Client ")
         self.set_default_size(400, 250)
 
         # 主容器
